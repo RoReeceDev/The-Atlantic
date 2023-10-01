@@ -1,0 +1,218 @@
+*{
+    box-sizing: border-box;
+}
+
+li{
+    list-style-type: none;
+}
+
+li>a{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0 10px 0 10px;
+    color: black;
+    font-family: "EB Garamond", Arial, Helvetica, sans-serif;
+}
+
+.header section{
+    border-top: 1px solid black;
+}
+
+.header-left li, .header-right li{
+    display: inline-block;
+}
+
+.header-left {
+    width: 40%;
+    border-bottom: 1px solid black;
+    padding-bottom: 1.7%;
+}
+
+.menu-search{
+    height: 25px;
+}
+.menu{
+    padding-top: 25px;
+}
+
+.header-mid{
+    width: 20%; 
+    padding-left: 5%;
+
+}
+
+.header-left, .header-mid, .header-right{
+    float:left;
+    border-top: 1px solid black;
+}
+
+.the-big-a{
+    height: 100px;
+    padding-left: 5%;
+}
+
+.atlantic-logo{
+    height: 16px;
+}
+
+.header-right{
+    width: 40%;
+    border-bottom: 1px solid black;
+    padding-left: 28%;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+.header-right button{
+    background: red;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+.articles{
+    clear:both;
+    border-bottom: 1px solid black;
+    padding: 10px 0 10px 0;
+}
+
+.article-side-left{
+    clear: both;
+    border-right: 1px solid black;
+}
+
+.article-side-left, .article-side-right, .article-middle{
+    float: left;
+    padding: 0 10px;
+}
+
+.article-side-left, .article-side-right{
+    width: 25%;
+}
+
+.article-middle{
+    width: 50%;
+    text-align: center;
+}
+
+.article-middle h2{
+    font-size: 45px;
+}
+
+.article-middle p{
+    font-size: 28px;
+}
+
+.article-middle > .photographer{
+    text-align: left;
+}
+
+.photographer{
+    font-size: 13px;
+    color: rgb(190, 194, 198);
+    text-transform: uppercase;
+}
+
+h2, h3{
+    font-weight:400;
+}
+
+h2{
+    font-size: 33px;
+}
+
+h3{
+    line-height: 1.5;
+    font-size: 27px;
+}
+
+.top-right-article{
+    margin-top: 0;
+}
+
+.author-mid{
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.bottom-guys p{
+    font-size: 26.5px;
+    line-height: 1.5;
+}
+
+
+.bottom-articles{
+    clear:both;
+}
+
+span{
+    display:block;
+}
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.article-middle img, .article-side-left img{
+    width: 100%;
+}
+
+.article-side-right img{
+    width: 35%;
+    float: right;
+}
+
+
+.left-a{
+    border-bottom: 1px solid black;
+    padding-bottom: 15px;
+}
+
+.left-b{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.article-side-right{
+    border-left: 1px solid black;
+}
+
+.long-bottom{
+    height: 103px;
+}
+
+.right-butts{
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+}
+
+.bottom-guys{
+    width: 25%;
+    float: left;
+}
+.bottom-guys img{
+    width: 100%;
+}
+
+.bottom-guys{
+    padding: 10px 10px;
+
+}
+
+.bottom-box{
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+}
+
+.line2{
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.line1{
+    border-left: 1px solid black;
+    padding-bottom: 87px;
+}
