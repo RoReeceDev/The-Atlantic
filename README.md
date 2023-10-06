@@ -1,6 +1,6 @@
 # The-Atlantic
 
-A static mirror of The Atlanic 
+A static mirror of The Atlantic 
 
 Link to project: https://the-atlantic-mirror.netlify.app/
 
